@@ -5,3 +5,9 @@
     font-display: auto;
     src: url('https://www.gesinegold.com/wp-content/uploads/2024/05/engravers-gothic-bt-font-webfont.woff2') format('woff2');
 }
+/* Styling und Kerning für alle Überschriften in der E-Mail */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Engravers Gothic Local', Arial, sans-serif !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.15em !important;
+}
